@@ -84,6 +84,20 @@
     padding: 10px;
     max-width: 100%;
   }
+  .form-section{
+    background-color: #333;
+    color: white;
+    padding: 0% 20px;
+    margin: 20px auto;
+    border-radius: 0%;
+  }
+  .form-section h2{
+    color: #4caf50;
+    font-size: 24px;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 0%;
+  }
     </style>
   </head>
   <body>
@@ -97,12 +111,34 @@
       <p>Join Us at oxford college</p>
       <a href="#" class="button">Apply Now</a>
     </div>
+    <div class="form-section">
+  <h2>Application Form</h2>
+  <form action="#" method="post">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course" name="course">
+      <option value="bsc">B.Sc</option>
+      <option value="bba">BBA</option>
+      <option value="ba">BA</option>
+      <option value="cs">Computer Science</option>
+    </select><br><br>
+
+    <label for="message">Why do you want to join?</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <button type="submit" class="button">Submit</button>
+  </form>
+</div>
     <footer>
       <p>@2023 Oxford College </p>
       <p>All rights reserved.</p>
       <p>Contact us: oxfordcollege@gmail.com</p>
-      <p>Follow us on social media: <a href="https://github.com/mahatokabir45-source">GitHub</a></p>
+      <p>Follow us on social media: <a href="https://github.com/">GitHub</a></p>
     </footer>
   </body>
 </html>
-
